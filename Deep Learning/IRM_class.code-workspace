@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../luckproject/msMachineLearning/Python Labs"
+		},
+		{
+			"path": "../../../R"
+		},
+		{
+			"path": "../../../../luckproject/msMachineLearning/R Labs"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
