@@ -1,3 +1,4 @@
+import numpy as np  
 def numerical_gradient(f,x_s):
     """梯度求解
     注意，使用的是数值微分法，是基于微小值不断求导。即基于最原始的 df/dx=lim (f(x+h)-f(x-h))/h h->0 的形式
@@ -9,7 +10,6 @@ def numerical_gradient(f,x_s):
         np.array: M点对应函数f的梯度值
     """
     delta=1e-4
-    print(delta)
     d_x=np.zeros_like(x_s)# 定义偏导数结果向量
     #对每一个自变量向量中自变量进行求导，并放入偏导数结果向量中
     for i in range(x_s.size):
