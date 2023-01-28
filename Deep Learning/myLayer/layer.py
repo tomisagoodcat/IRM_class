@@ -1,4 +1,5 @@
 from common.layers import *
+from collections import OrderedDict
 class TwoLayerNet:
     def __init__(self,input_size=784,hidden_size=50,output_size=10,weight_init_std=0.01):
         #self.params={}
@@ -58,7 +59,7 @@ class TwoLayerNet:
         return accuracy
 
 class TwoLayerNet_Op(TwoLayerNet):
-    """_summary_
+    """继承基础的两层网络，但替换权参初始方法，使用标准差=He生产权参
 
     Args:
         TwoLayerNet (_type_): _description_
@@ -99,7 +100,7 @@ class ThreeLayerNet_Op(TwoLayerNet):
             self.params = {}
             self.params['W1'] =   np.random.randn(input_size, hidden_size)*(2/np.sqrt(input_size))
             self.params['b1'] = np.zeros(hidden_size)
-            self.params['W2'] =  np.random.randn(hidden_size, m_hiddent_size) *(1/np.sqrt(hidden_size))
+            self.params['W2'] =  np.random.randn(hidden_size, m_hiddent_size) *(2/np.sqrt(hidden_size))
             self.params['b2'] = np.zeros(m_hiddent_size)
             self.params['W3'] =  np.random.randn(m_hiddent_size, output_size) *(2/np.sqrt(m_hiddent_size))
             self.params['b3'] = np.zeros(output_size)            
@@ -134,4 +135,90 @@ class ThreeLayerNet_Op(TwoLayerNet):
             grads['b1']=self.affine1.db
             grads['b2']=self.affine2.db
             grads['b3']=self.affine3.db
-            return grads            
+            return grads   
+
+class MultiLayerNet(TwoLayerNet):   
+    """全连接的多层神经网络
+
+    Parameters
+    ----------
+    input_size : 输入大小（MNIST的情况下为784）
+    hidden_size_list : 隐藏层的神经元数量的列表（e.g. [100, 100, 100]）
+    output_size : 输出大小（MNIST的情况下为10）
+    activation : 'relu' or 'sigmoid'
+    weight_init_std : 指定权重的标准差（e.g. 0.01）
+        指定'relu'或'he'的情况下设定“He的初始值”
+        指定'sigmoid'或'xavier'的情况下设定“Xavier的初始值”
+    weight_decay_lambda : Weight Decay（L2范数）的强度
+    """
+    def __init__(self,input_size=784,hidden_size_list=[100,100,100,100,100,100],output_size=10,activation='relu',weight_init_std='relu'):
+        self.hidden_size_list=hidden_size_list
+        self.params={}
+        self.input_size=input_size
+        self.output_size=output_size
+        self.weight_init_std=weight_init_std
+        self.activation=activation
+        self.hidden_layer_num=len(hidden_size_list)
+        #调用函数生成初始权参
+        self.params=self.__init_weight()
+        #生成网络
+        self.layers=OrderedDict()
+        for i in range(1,self.hidden_layer_num):
+            self.layers['Affine'+str(i)]=Affine(self.params['W'+str(i)],self.params['b'+str(i)])
+            self.layers['Active'+str(i)]=Relu()
+        #最后输出加loss层
+        last_num=hidden_layer_num+1
+        self.layers['Affine'+str(last_num)]=Affine(self.params['W'+str(last_num)],self.params['b'+str(last_num)])
+        self.lastLayer=SoftmaxWithLoss()
+    
+    def __init_weight(self, weight_init_std='relu'):
+        """设定权重的初始值
+
+        Parameters
+        ----------
+        weight_init_std : 指定权重的标准差（e.g. 0.01）
+            指定'relu'或'he'的情况下设定“He的初始值”
+            指定'sigmoid'或'xavier'的情况下设定“Xavier的初始值”
+        """
+        all_size_list = [self.input_size] + self.hidden_size_list + [self.output_size]
+        for idx in range(1, len(all_size_list)):
+            scale = weight_init_std
+            if str(weight_init_std).lower() in ('relu', 'he'):
+                scale = np.sqrt(2.0 / all_size_list[idx - 1])  # 使用ReLU的情况下推荐的初始值
+            elif str(weight_init_std).lower() in ('sigmoid', 'xavier'):
+                scale = np.sqrt(1.0 / all_size_list[idx - 1])  # 使用sigmoid的情况下推荐的初始值
+
+            self.params['W' + str(idx)] = scale * np.random.randn(all_size_list[idx-1], all_size_list[idx])
+            self.params['b' + str(idx)] = np.zeros(all_size_list[idx])
+
+        def predict(self,x):
+            for layer in self.layers.values():
+                x=layer.predict(x)
+            return x
+                
+                
+        def loss(self,x,t):
+            y=self.predict(x,t)
+            loss=self.lastlayer.predict(y,t)
+            
+            
+        def gradients(self,x,t):
+            loss=self.loss(x,t)
+            
+            loss_dout=1#loss的导数为1
+            self.lastlayer.backward(loss_dout) 
+            layers=list(self.layers.values())
+            layers.reverse()
+            for layer in layers:
+                dout=layer.backward(dout)
+            grads={}
+            
+            
+
+            
+            
+ 
+            
+           
+      
+         
