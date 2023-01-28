@@ -1,1 +1,347 @@
-<mxfile host="Electron" modified="2023-01-22T16:39:06.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.7.4 Chrome/106.0.5249.199 Electron/21.3.3 Safari/537.36" etag="PxZSt9ZrF8iyRnu-GiTw" version="20.7.4" type="device"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">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</diagram></mxfile>
+<mxfile host="65bd71144e">
+    <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+        <mxGraphModel dx="2174" dy="1781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
+                <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-54" target="hIa9dAdDlLu55Ho5dlvz-26" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="71" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-54" value="梯度下降结果，关于W权参的梯度向量" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="2.5" y="305" width="137.5" height="625" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-61" value="第一个激活函数层，正向实现基于加权输入值代入F()预测，反向实现正向输入值代入F()导函数乘上一层传来反向信号" style="whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="180" y="555" width="440" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-0" value="开始梯度下载循环&lt;br&gt;循环i=N次" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="340" y="-90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-2" target="RyURgr3Y3XsO1ozv0hEs-31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-2" target="RyURgr3Y3XsO1ozv0hEs-77" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-2" value="载入batch_size&lt;br&gt;例如100个测试集(X_train,Y_train)数据" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="451" y="110" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-6" target="RyURgr3Y3XsO1ozv0hEs-0" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-6" value="初始化每一层的权参（W）,偏参(B)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="340" y="-200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-7" target="RyURgr3Y3XsO1ozv0hEs-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-7" value="实例化神经网络" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="340" y="-330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-30" target="RyURgr3Y3XsO1ozv0hEs-44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-30" value="激活函数层，对应激活函数F()&lt;br&gt;X_1=F(Z_0)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="451" y="600" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-31" value="载入X_0,初始测试数据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="456" y="220" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-32" value="&lt;br&gt;备注：&lt;br&gt;X_n：第n层网络的输入数据&lt;br&gt;&lt;br&gt;Y_n：X_n权参加权输出数据：Y_n=X_n*W+B&lt;br&gt;&lt;br&gt;L():损失函数&lt;br&gt;&lt;br&gt;Y_t:测试结果数据" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="609" y="-170" width="180" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-34" value="第1个Affine层：实现正向权参赋值，以及反向求权参梯度" style="whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="170" y="330" width="439" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-44" value="X_1作为下一层输入值" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="456" y="700" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-49" target="RyURgr3Y3XsO1ozv0hEs-72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-49" value="&lt;br style=&quot;border-color: var(--border-color); color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 11px; font-variant-ligatures: no-common-ligatures; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 11px; font-variant-ligatures: no-common-ligatures; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;forwad:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 11px; font-variant-ligatures: no-common-ligatures; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 11px; font-variant-ligatures: no-common-ligatures; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;实现Y_0=X_0*W_0+B_0&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="451" y="370" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-50" target="hIa9dAdDlLu55Ho5dlvz-21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-50" value="backward&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;1.L'(W_0)=X_0(T)@L'(out_0)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2.L'(out_end)=L'(out_0)@W_0(T)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="175" y="370" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-53" value="第2个Affine层：实现正向权参赋值，以及反向求权参梯度" style="whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="180" y="790" width="450" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-54" target="RyURgr3Y3XsO1ozv0hEs-75" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-54" value="&lt;br style=&quot;border-color: var(--border-color); color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 11px; font-variant-ligatures: no-common-ligatures; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 11px; font-variant-ligatures: no-common-ligatures; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;forwad:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 11px; font-variant-ligatures: no-common-ligatures; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 11px; font-variant-ligatures: no-common-ligatures; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;实现Y_1=X_1*W_1+B_1&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="451" y="830" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-55" target="hIa9dAdDlLu55Ho5dlvz-19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-55" value="backward&lt;br&gt;1.L'(W_1)=X_1(T)@L'(out_2)&lt;br&gt;2.L'(out_1)=L'(out_2)@W_1(T)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="180" y="827.5" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-58" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-31" target="RyURgr3Y3XsO1ozv0hEs-49" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-120" y="390" as="sourcePoint"/>
+                        <mxPoint x="-70" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-44" target="RyURgr3Y3XsO1ozv0hEs-54" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-62" value="backward&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;反向激活层，激活函数导函数F'()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;L'(out_0)=L'(out_1)*F'(X_1)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="190" y="600" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-63" value=".........." style="whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="180" y="1169" width="450" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-64" value="激活函数层，对应激活函数F()&lt;br&gt;X_2=F(Z_1)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="451" y="1050" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-65" value="&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="251" y="1050" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-67" value="第2个激活函数层，正向实现基于加权输入值代入F()预测，反向实现正向输入值代入F()导函数乘上一层传来反向信号" style="whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="170" y="1020" width="460" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-68" value="forward&lt;br&gt;激活函数层，对应激活函数F()&lt;br&gt;X_2=F(Z_1)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="451" y="1060" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-69" value="输出层。激活函数可选择softmax，恒等函数等" style="whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="180" y="1310" width="450" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-71" target="RyURgr3Y3XsO1ozv0hEs-76" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-71" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;输入Y_n到输出层，&lt;br&gt;设Z_1=Y_n&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="456" y="1220" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-75" target="RyURgr3Y3XsO1ozv0hEs-68" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-75" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;输入Y_1到激活函数层，&lt;br&gt;设Z_1=Y_1&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="456" y="930" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-76" target="RyURgr3Y3XsO1ozv0hEs-81" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-6" target="hIa9dAdDlLu55Ho5dlvz-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-76" value="输出层，通过输出函数F()最终得到整体预测结果&lt;br&gt;Y_P=F(Z_n)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="451" y="1360" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-77" value="y_train&lt;br&gt;（测试集真实预测值）" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="639" y="1600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-78" value="误差函数计算层，设误差函L()" style="whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="180" y="1530" width="450" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-79" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="270" y="1510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-79" value="误差计算&lt;br&gt;loss_out=L(y_train-y_p)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="345" y="1590" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.969;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-77" target="RyURgr3Y3XsO1ozv0hEs-79" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-81" target="RyURgr3Y3XsO1ozv0hEs-79" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-81" value="Y_P" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="471" y="1480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-72" target="RyURgr3Y3XsO1ozv0hEs-30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-72" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;输入Y_0到激活函数层，&lt;br&gt;设Z_0=Y_0&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="456" y="460" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="RyURgr3Y3XsO1ozv0hEs-90" value="反向传播&lt;br&gt;1. 反向每层像上一层提供本层的out值对L误差函数导数dL/dout&lt;br&gt;2.每一层求得激活函数导函数，并代入保存的X_n，得到f'(X_n)&lt;br&gt;3. dL/dout_n=dL/dout*f'(x_N)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="-80" y="1300" width="180" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-0" target="hIa9dAdDlLu55Ho5dlvz-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-0" value="返回求得误差值&lt;br&gt;导数L'(loss_out)=1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="200" y="1470" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-1" value="输出层，上一层的&lt;br&gt;L'(loss_out)=1&lt;br&gt;L'(out_n)=1*F(Y_P)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="200" y="1360" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-2" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;返回&lt;/span&gt;L'(out_n)作为&lt;br&gt;反向输入值" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="210" y="1220" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-5" value="backward&lt;br&gt;反向激活层，激活函数导函数F'()&lt;br&gt;L'(out_2)=L'(out_3)*F'(X_2)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="180" y="1060" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-6" value="传递&lt;br&gt;Y_P" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="385" y="1370" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-76" target="hIa9dAdDlLu55Ho5dlvz-6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="451" y="1390" as="sourcePoint"/>
+                        <mxPoint x="360" y="1390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-8" target="hIa9dAdDlLu55Ho5dlvz-5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="190" y="1230" as="sourcePoint"/>
+                        <mxPoint x="240" y="1180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-8" value="传递&lt;br&gt;X_2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="394.5" y="1075" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-68" target="hIa9dAdDlLu55Ho5dlvz-8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="451" y="1100" as="sourcePoint"/>
+                        <mxPoint x="355" y="1100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-11" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;返回&lt;/span&gt;L'(out_2)作为&lt;br&gt;反向输入值" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="210" y="922.5" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RyURgr3Y3XsO1ozv0hEs-55" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="860" as="sourcePoint"/>
+                        <mxPoint x="940" y="930" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-18" value="传递&lt;br&gt;X_1&lt;br&gt;W_1&lt;br&gt;B_1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="389" y="822.5" width="50" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-19" value="L'(W_1)就是该层W_1权参对L损失函数的偏导" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="10" y="805" width="105" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-21" value="L'(W_0)就是该层W_0权参对L损失函数的偏导" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="18.75" y="347.5" width="105" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-22" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;返回&lt;/span&gt;L'(out_1)作为&lt;br&gt;反向输入值" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="210" y="700" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-23" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;返回&lt;/span&gt;L'(out_0)作为&lt;br&gt;反向输入值" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="205" y="460" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.19;exitY=0.586;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-24" target="RyURgr3Y3XsO1ozv0hEs-50" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="190" y="530" as="sourcePoint"/>
+                        <mxPoint x="240" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-24" value="传递&lt;br&gt;X_0&lt;br&gt;W_0&lt;br&gt;B_0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="394.5" y="365" width="50" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-26" target="hIa9dAdDlLu55Ho5dlvz-31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-26" value="update,学习率=mu&lt;br&gt;基于更新函数，沿着W梯度方向更新权参&lt;br&gt;W=W-mu*L'(W)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="184.5" y="220" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-27" target="RyURgr3Y3XsO1ozv0hEs-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-29" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hIa9dAdDlLu55Ho5dlvz-28" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1019" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-27" target="hIa9dAdDlLu55Ho5dlvz-31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-35" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hIa9dAdDlLu55Ho5dlvz-33" vertex="1" connectable="0">
+                    <mxGeometry x="0.3167" y="4" relative="1" as="geometry">
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-27" value="是否第一次&lt;br&gt;执行" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="360" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-31" target="RyURgr3Y3XsO1ozv0hEs-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-31" value="更新网络实例所有W权参，进入下一次循环" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="224" y="110" width="131" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.44;entryY=0.917;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="hIa9dAdDlLu55Ho5dlvz-2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="276" y="1360" as="sourcePoint"/>
+                        <mxPoint x="300" y="1440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.427;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-44" target="hIa9dAdDlLu55Ho5dlvz-11" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="190" y="1330" as="sourcePoint"/>
+                        <mxPoint x="240" y="1280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-41" value="" style="endArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RyURgr3Y3XsO1ozv0hEs-55" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="275" y="930" as="sourcePoint"/>
+                        <mxPoint x="240" y="1080" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-42" value="backward&lt;br&gt;1.L'(W_1)=X_1(T)@L'(out_2)&lt;br&gt;2.L'(out_1)=L'(out_2)@W_1(T)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="180" y="827.5" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-43" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;返回&lt;/span&gt;L'(out_2)作为&lt;br&gt;反向输入值" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="200" y="922.5" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-44" value="backward&lt;br&gt;反向激活层，激活函数导函数F'()&lt;br&gt;L'(out_2)=L'(out_3)*F'(X_2)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="175" y="1060" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-45" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;返回&lt;/span&gt;L'(out_n)作为&lt;br&gt;反向输入值" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="200" y="1220" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-46" value="输出层，上一层的&lt;br&gt;L'(loss_out)=1&lt;br&gt;L'(out_n)=1*F'(Y_P)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+                    <mxGeometry x="195" y="1360" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.413;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RyURgr3Y3XsO1ozv0hEs-62" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="277" y="700" as="sourcePoint"/>
+                        <mxPoint x="220" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.429;entryY=1.041;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-42" target="hIa9dAdDlLu55Ho5dlvz-22" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="294.99999999999955" y="710" as="sourcePoint"/>
+                        <mxPoint x="286.72999999999956" y="671.3200000000002" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIa9dAdDlLu55Ho5dlvz-23" target="RyURgr3Y3XsO1ozv0hEs-50" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="540" as="sourcePoint"/>
+                        <mxPoint x="220" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="hIa9dAdDlLu55Ho5dlvz-23" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="278" y="600" as="sourcePoint"/>
+                        <mxPoint x="282.02" y="438.3800000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.455;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-50" target="hIa9dAdDlLu55Ho5dlvz-26" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="540" as="sourcePoint"/>
+                        <mxPoint x="280" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hIa9dAdDlLu55Ho5dlvz-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RyURgr3Y3XsO1ozv0hEs-0" target="hIa9dAdDlLu55Ho5dlvz-27" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="-180" as="sourcePoint"/>
+                        <mxPoint x="220" y="-230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

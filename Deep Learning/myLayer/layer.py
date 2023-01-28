@@ -151,7 +151,7 @@ class MultiLayerNet(TwoLayerNet):
         指定'sigmoid'或'xavier'的情况下设定“Xavier的初始值”
     weight_decay_lambda : Weight Decay（L2范数）的强度
     """
-    def __init__(self,input_size=784,hidden_size_list=[100,100,100,100,100,100],output_size=10,activation='relu',weight_init_std='relu'):
+    def __init__(self,input_size=784,hidden_size_list=[100,100,100,100,100,100],output_size=10,activation='relu',weight_init_std='relu',weight_decay_lambda=0):
         self.hidden_size_list=hidden_size_list
         self.params={}
         self.input_size=input_size
@@ -159,17 +159,20 @@ class MultiLayerNet(TwoLayerNet):
         self.weight_init_std=weight_init_std
         self.activation=activation
         self.hidden_layer_num=len(hidden_size_list)
+        self.weight_decay_lambda=weight_decay_lambda
         #调用函数生成初始权参
-        self.params=self.__init_weight()
+        self.__init_weight()
         #生成网络
         self.layers=OrderedDict()
-        for i in range(1,self.hidden_layer_num):
-            self.layers['Affine'+str(i)]=Affine(self.params['W'+str(i)],self.params['b'+str(i)])
-            self.layers['Active'+str(i)]=Relu()
+        self.layers = OrderedDict()
+        for idx in range(1, self.hidden_layer_num+1):
+            self.layers['Affine' + str(idx)] = Affine(self.params['W' + str(idx)],
+                                                      self.params['b' + str(idx)])
+            self.layers['Activation_function' + str(idx)] = Relu()
         #最后输出加loss层
-        last_num=hidden_layer_num+1
+        last_num=self.hidden_layer_num+1
         self.layers['Affine'+str(last_num)]=Affine(self.params['W'+str(last_num)],self.params['b'+str(last_num)])
-        self.lastLayer=SoftmaxWithLoss()
+        self.lastlayer=SoftmaxWithLoss()
     
     def __init_weight(self, weight_init_std='relu'):
         """设定权重的初始值
@@ -191,31 +194,37 @@ class MultiLayerNet(TwoLayerNet):
             self.params['W' + str(idx)] = scale * np.random.randn(all_size_list[idx-1], all_size_list[idx])
             self.params['b' + str(idx)] = np.zeros(all_size_list[idx])
 
-        def predict(self,x):
-            for layer in self.layers.values():
-                x=layer.predict(x)
-            return x
+    def predict(self,x):
+        for layer in self.layers.values():
+            x=layer.forward(x)
+        return x
                 
                 
-        def loss(self,x,t):
-            y=self.predict(x,t)
-            loss=self.lastlayer.predict(y,t)
-            
-            
-        def gradients(self,x,t):
-            loss=self.loss(x,t)
-            
-            loss_dout=1#loss的导数为1
-            self.lastlayer.backward(loss_dout) 
-            layers=list(self.layers.values())
-            layers.reverse()
-            for layer in layers:
-                dout=layer.backward(dout)
-            grads={}
-            
-            
+    def loss(self,x,t):
+        y=self.predict(x)
+        weight_decay = 0
+        for idx in range(1,self.hidden_layer_num+1):
+            weight_decay=np.sum(self.params['W'+str(idx)]**2)
+        loss=self.lastlayer.forward(y,t)+self.weight_decay_lambda*weight_decay*0.5
+        return loss
+        
+        
+    def gradient(self,x,t):
+        loss=self.loss(x,t)
+        
+        loss_dout=1#loss的导数为1
+        dout=self.lastlayer.backward(loss_dout) 
+        layers=list(self.layers.values())
+        layers.reverse()
+        for layer in layers:
+            dout=layer.backward(dout)
+        grads={}
+        for idx in range(1,self.hidden_layer_num+2):
+            grads["W"+str(idx)]=self.layers["Affine"+str(idx)].dW+self.weight_decay_lambda*0.5*self.layers["Affine"+str(idx)].dW
+            grads["b"+str(idx)]=self.layers["Affine"+str(idx)].db
+        
 
-            
+        return grads
             
  
             
