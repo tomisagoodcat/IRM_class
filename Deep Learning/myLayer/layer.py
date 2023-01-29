@@ -136,7 +136,9 @@ class ThreeLayerNet_Op(TwoLayerNet):
             grads['b2']=self.affine2.db
             grads['b3']=self.affine3.db
             return grads   
+        
 
+     
 class MultiLayerNet(TwoLayerNet):   
     """全连接的多层神经网络
 
@@ -229,5 +231,49 @@ class MultiLayerNet(TwoLayerNet):
  
             
            
-      
-         
+class Dropout:
+    """
+    http://arxiv.org/abs/1207.0580
+    """
+    def __init__(self, dropout_ratio=0.5):
+        self.dropout_ratio = dropout_ratio
+        self.mask = None
+
+    def forward(self, x, train_flg=True):
+        if train_flg:
+            self.mask = np.random.rand(*x.shape) > self.dropout_ratio
+            return x * self.mask
+        else:
+            return x * (1.0 - self.dropout_ratio)
+
+    def backward(self, dout):
+        return dout * self.mask
+          
+class MultiLayerNet_dropout(MultiLayerNet):  
+    def __init__(self,input_size=784,hidden_size_list=[100,100,100,100,100,100],output_size=10,activation='relu',weight_init_std='relu',weight_decay_lambda=0,dropout_ratio=0.5):
+     
+        self.hidden_size_list=hidden_size_list
+        self.params={}
+        self.input_size=input_size
+        self.output_size=output_size
+        self.weight_init_std=weight_init_std
+        self.activation=activation
+        self.hidden_layer_num=len(hidden_size_list)
+        self.weight_decay_lambda=weight_decay_lambda
+        #调用函数生成初始权参
+        #我们在python中从某父类继承子类时，可以在子类中对父类的数据域和方法操作，但是当该数据域或方法为私有时（有双下划线作为前缀），应注意调用格式如下：
+            #子类调用父类私有数据域：self._父类名+私有数据域名
+            #子类调用父类私有方法：self._父类名+私有方法名
+        self._MultiLayerNet__init_weight()
+        #生成网络
+        self.layers=OrderedDict()
+        self.layers = OrderedDict()
+        for idx in range(1, self.hidden_layer_num+1):
+            self.layers['Affine' + str(idx)] = Affine(self.params['W' + str(idx)],
+                                                      self.params['b' + str(idx)])
+            self.layers['Activation_function' + str(idx)] = Relu()
+            self.layers['Dropout' + str(idx)] = Dropout(dropout_ratio=dropout_ratio)
+        #最后输出加loss层
+        last_num=self.hidden_layer_num+1
+        self.layers['Affine'+str(last_num)]=Affine(self.params['W'+str(last_num)],self.params['b'+str(last_num)])
+        self.lastlayer=SoftmaxWithLoss()
