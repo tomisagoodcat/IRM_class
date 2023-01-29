@@ -265,6 +265,7 @@ class MultiLayerNet_dropout(MultiLayerNet):
             #子类调用父类私有数据域：self._父类名+私有数据域名
             #子类调用父类私有方法：self._父类名+私有方法名
         self._MultiLayerNet__init_weight()
+        #self.__init_weight()
         #生成网络
         self.layers=OrderedDict()
         self.layers = OrderedDict()
@@ -272,8 +273,9 @@ class MultiLayerNet_dropout(MultiLayerNet):
             self.layers['Affine' + str(idx)] = Affine(self.params['W' + str(idx)],
                                                       self.params['b' + str(idx)])
             self.layers['Activation_function' + str(idx)] = Relu()
-            self.layers['Dropout' + str(idx)] = Dropout(dropout_ratio=dropout_ratio)
+            self.layers['Dropout' + str(idx)] = Dropout()
         #最后输出加loss层
         last_num=self.hidden_layer_num+1
         self.layers['Affine'+str(last_num)]=Affine(self.params['W'+str(last_num)],self.params['b'+str(last_num)])
         self.lastlayer=SoftmaxWithLoss()
+
