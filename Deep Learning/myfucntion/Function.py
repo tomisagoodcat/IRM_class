@@ -11,6 +11,18 @@ def loss_fig(train_loss_list,test_loss_list):
         plt.legend(loc='best')
         plt.title('Training and Test loss', fontsize=15)
         plt.show()
+def accuracy_fig(train_acc_list,test_acc_list):       
+        markers = {'train': 'o', 'test': 's'}
+        #x = np.arange(len(train_acc_list))
+        #plt.plot(x, train_acc_list, label='train acc')
+        plt.plot(train_acc_list, label='train acc')
+        #plt.plot(x, test_acc_list, label='test acc', linestyle='--')
+        plt.plot( test_acc_list, label='test acc', linestyle='--')
+        plt.xlabel("epochs")
+        plt.ylabel("accuracy")
+        #plt.ylim(0, 1.0)
+        plt.legend(loc='lower right')
+        plt.show()
 def identify(self,a):
         """恒等函数
 
