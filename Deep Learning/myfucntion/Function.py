@@ -1,5 +1,16 @@
 import numpy as np 
+import matplotlib.pyplot as plt
+def loss_fig(train_loss_list,test_loss_list):       
+        fig = plt.gcf()
+        fig.set_size_inches(10, 5)
 
+        plt.xlabel('Epochs', fontsize=15)
+        plt.ylabel('Loss', fontsize=15)
+        plt.plot(train_loss_list, 'blue', label='Train loss')
+        plt.plot(test_loss_list, 'red', label='Test loss')
+        plt.legend(loc='best')
+        plt.title('Training and Test loss', fontsize=15)
+        plt.show()
 def identify(self,a):
         """恒等函数
 
