@@ -4,16 +4,8 @@
 			"path": ".."
 		},
 		{
-			"path": "../../../../luckproject/msMachineLearning/Python Labs"
-		},
-		{
-			"path": "../../../R"
-		},
-		{
-			"path": "../../../../luckproject/msMachineLearning/R Labs"
+			"path": "../../../../LUCK/luckproject/msMachineLearning/Python Labs"
 		}
 	],
-	"settings": {
-		"git.ignoreLimitWarning": true
-	}
+	"settings": {}
 }
