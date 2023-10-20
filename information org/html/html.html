@@ -1,0 +1,40 @@
+<html>
+    
+<script language="javascript" >
+var data= 
+    
+     {"title": "信息组织", "author":"周宁" ,
+       "price":20}
+    
+var books = {
+    "Pascal" : [ 
+        { "Name"  : "Pascal Made Simple", "price" : 700 },
+        { "Name"  : "Guide to Pascal", "price" : 400 }
+    ],                       
+    "Scala"  : [
+        { "Name"  : "Scala for the Impatient", "price" : 1000 }, 
+        { "Name"  : "Scala in Depth", "price" : 1300 }
+    ]    
+}   
+document.write("<h1>json 例子</h1>")
+
+document.write("<h2> 作者："+data.author+"</h2>")
+document.write("<h2> 书名："+data.title+"</h2>")
+document.write("<h2> 价格:"+data.price+"</h2>")
+for(i=0;i<books.Pascal.length;i++)
+{   
+
+    document.writeln("<h5>" + books.Pascal[i].Name+"</h5>") 
+}
+var cats={"cats":[{"name" : "tom","color":"white"}, {"name" : "jim","color":"black"}]}
+
+for (i=0;i<cats.cats.length;i++)
+{
+    document.writeln("<h5>"+cats.cats[i].name+"</h5>") 
+}
+ 
+ 
+</script>
+<header></header>
+<body></body>
+</html>
