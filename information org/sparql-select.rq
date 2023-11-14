@@ -1,0 +1,84 @@
+
+# 查询dbpedia中数据
+SELECT ?city ?population WHERE {
+    ?city rdf:type dbo:City .
+    ?city dbo:country dbr:China .
+    ?city dbo:populationTotal ?population .
+} ORDER BY DESC(?population)
+
+#List of Books by a Specific Author
+#This query retrieves a list of books written by a specific author, for example, "J.K. Rowling".
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT ?book WHERE {
+  ?book dbo:author dbr:J._K._Rowling .
+}
+
+# 一个城市的详细信息
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+ 
+
+SELECT ?population ?area ?abstract ?wikipedia WHERE {
+  dbr:Guiyang dbo:populationTotal ?population ;
+             dbo:areaTotal ?area ;
+             foaf:isPrimaryTopicOf ?wikipedia ;
+             dbo:abstract ?abstract .
+  FILTER(LANG(?abstract) = "zh")}
+
+
+ # construct 的例子
+ PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+CONSTRUCT {
+  dbr:Big_Apple a dbo:City ;
+                   dbo:populationTotal ?population ;
+                   dbo:areaTotal ?area .
+} WHERE {
+  dbr:New_York_City dbo:populationTotal ?population ;
+                    dbo:areaTotal ?area .
+}
+#####
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+CONSTRUCT {
+  dbr:Apple_Inc. a dbo:Company ;
+                 dbo:foundingDate ?foundingDate ;
+                 dbo:industry ?industry ;
+                 foaf:name "Apple Inc." .
+} WHERE {
+  dbr:Apple_Inc. dbo:foundingDate ?foundingDate ;
+                 dbo:industry ?industry .
+}
+
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+CONSTRUCT {
+  ?country dbo:capital ?capital .
+} WHERE {
+  ?country dbo:capital ?capital .
+  ?country a dbo:Country .
+  ?capital a dbo:City .
+}
+
+
+#####disrcibe 
+PREFIX dbr: <http://dbpedia.org/resource/>
+
+DESCRIBE dbr:Artificial_intelligence
+
+
+####ask
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+ASK {
+  dbr:Paris rdf:type dbo:City ;
+            dbo:isCapitalOf ?country .
+}
