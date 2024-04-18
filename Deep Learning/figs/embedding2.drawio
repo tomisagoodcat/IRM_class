@@ -1,0 +1,112 @@
+<mxfile host="Electron" modified="2024-03-11T01:42:28.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="CPPtH8Jco6wjPpLMjz4x" version="23.1.5" type="device">
+  <diagram name="第 1 页" id="PI6dieHw3Ls8ITupRyyz">
+    <mxGraphModel dx="2074" dy="2005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-1" target="3aLeghFOEpfr9LKDKRxO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-1" value="原始语句" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-2" target="3aLeghFOEpfr9LKDKRxO-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-2" target="3aLeghFOEpfr9LKDKRxO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-2" value="分词得到L个有序的词" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-9" target="3aLeghFOEpfr9LKDKRxO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-9" value="创建embeddign层生成对应矩阵(K,M)，载入预训练词库其中M为输出维度&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-12" value="构建本地词表,包括N个唯一词：&lt;br&gt;{index:词}" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-13" target="3aLeghFOEpfr9LKDKRxO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-13" value="预训练词库，（K,，M）K为词库包含的词数，M为每个词对应的维度" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-14" target="3aLeghFOEpfr9LKDKRxO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-14" value="查询对应本地词在预训练词库中对应的索引{index:词}" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-14" target="3aLeghFOEpfr9LKDKRxO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-18" value="将对应的词索引输入embedding层实例" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-22" value="&lt;span style=&quot;border-color: var(--border-color); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(33, 37, 41); font-family: IBMPlexMono, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; letter-spacing: 0.01px; text-align: left;&quot;&gt;embedding&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;o&quot; style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: IBMPlexMono, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; letter-spacing: 0.01px; text-align: left; box-sizing: border-box; font-weight: bold;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(33, 37, 41); font-family: IBMPlexMono, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; letter-spacing: 0.01px; text-align: left;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot; style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: IBMPlexMono, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; letter-spacing: 0.01px; text-align: left; box-sizing: border-box; font-weight: bold;&quot;&gt;nn&lt;/span&gt;&lt;span class=&quot;o&quot; style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: IBMPlexMono, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; letter-spacing: 0.01px; text-align: left; box-sizing: border-box; font-weight: bold;&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot; style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: IBMPlexMono, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; letter-spacing: 0.01px; text-align: left; box-sizing: border-box; font-weight: bold;&quot;&gt;Embedding&lt;/span&gt;&lt;span class=&quot;o&quot; style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: IBMPlexMono, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; letter-spacing: 0.01px; text-align: left; box-sizing: border-box; font-weight: bold;&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot; style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: IBMPlexMono, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; letter-spacing: 0.01px; text-align: left; box-sizing: border-box; font-weight: bold;&quot;&gt;from_pretrained&lt;/span&gt;&lt;span class=&quot;p&quot; style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: IBMPlexMono, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; letter-spacing: 0.01px; text-align: left; box-sizing: border-box; font-weight: bold;&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot; style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: IBMPlexMono, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; letter-spacing: 0.01px; text-align: left; box-sizing: border-box; font-weight: bold;&quot;&gt;weight&lt;/span&gt;&lt;span class=&quot;p&quot; style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-family: IBMPlexMono, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; letter-spacing: 0.01px; text-align: left; box-sizing: border-box; font-weight: bold;&quot;&gt;)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="550" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-24" target="3aLeghFOEpfr9LKDKRxO-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-24" value="输出对应的矩阵X[L,M]其中L是原始文档的词序，M为自建或者预训练词库的维度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-18" target="3aLeghFOEpfr9LKDKRxO-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="382.5" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-28" target="3aLeghFOEpfr9LKDKRxO-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-28" value="载入下一层，例如LSTM的学习" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-29" target="3aLeghFOEpfr9LKDKRxO-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="900" />
+              <mxPoint x="640" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-29" value="loss函数bacakward" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-31" value="通过backward更新X[L,M]代表的词权重矩阵，使得其更好第代表当前语义，或者说更好地拟合模型" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="770" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-34" value="创建embedding层，形状为[N,M]，N为本地词库大小，M为自己指定的维度，此时得到的是一个随机矩阵" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="280" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-40" target="3aLeghFOEpfr9LKDKRxO-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-40" target="3aLeghFOEpfr9LKDKRxO-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-40" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-43" target="3aLeghFOEpfr9LKDKRxO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-43" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-12" target="3aLeghFOEpfr9LKDKRxO-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aLeghFOEpfr9LKDKRxO-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3aLeghFOEpfr9LKDKRxO-34" target="3aLeghFOEpfr9LKDKRxO-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

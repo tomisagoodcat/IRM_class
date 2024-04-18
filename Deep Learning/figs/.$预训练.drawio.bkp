@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2024-02-24T14:33:28.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="iebJ1pUHLlVoaD_T7oiM" version="23.1.5" type="device">
+  <diagram name="第 1 页" id="dYeBCy7nVTJldMxVOHKt">
+    <mxGraphModel dx="1102" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FIvhjPSSkFFBlxrObluq-1" value="feature 部分&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FIvhjPSSkFFBlxrObluq-2" target="FIvhjPSSkFFBlxrObluq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-2" value="tranform&lt;br&gt;将本地数据resize与预训练模型一致&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-3" value="conv..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-4" value="maxpool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FIvhjPSSkFFBlxrObluq-5" target="FIvhjPSSkFFBlxrObluq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FIvhjPSSkFFBlxrObluq-5" target="FIvhjPSSkFFBlxrObluq-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="160" as="sourcePoint" />
+            <mxPoint x="785" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-5" value="本地数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="405" y="80" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-8" value="classifer部分&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="530" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FIvhjPSSkFFBlxrObluq-11" target="FIvhjPSSkFFBlxrObluq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-11" value="调整最后一层linear的分类output使得其与分类模板一致" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FIvhjPSSkFFBlxrObluq-14" target="FIvhjPSSkFFBlxrObluq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FIvhjPSSkFFBlxrObluq-14" value="冻结feature，params不参与训练，防止开始时，由于classifer部分的权重为随机，破坏了之前训练好的优秀feature 中params" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="315" width="190" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
