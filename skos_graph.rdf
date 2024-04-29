@@ -1,0 +1,240 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix zz_con: <http://tom.whu/conception/> .
+
+zz_con:大数据中心安全保障体系规范 a skos:Collection ;
+    skos:member zz_con:concept_0,
+        zz_con:concept_1,
+        zz_con:concept_10,
+        zz_con:concept_11,
+        zz_con:concept_12,
+        zz_con:concept_13,
+        zz_con:concept_14,
+        zz_con:concept_15,
+        zz_con:concept_16,
+        zz_con:concept_17,
+        zz_con:concept_18,
+        zz_con:concept_19,
+        zz_con:concept_2,
+        zz_con:concept_20,
+        zz_con:concept_21,
+        zz_con:concept_22,
+        zz_con:concept_23,
+        zz_con:concept_24,
+        zz_con:concept_25,
+        zz_con:concept_26,
+        zz_con:concept_27,
+        zz_con:concept_28,
+        zz_con:concept_29,
+        zz_con:concept_3,
+        zz_con:concept_30,
+        zz_con:concept_31,
+        zz_con:concept_32,
+        zz_con:concept_33,
+        zz_con:concept_34,
+        zz_con:concept_35,
+        zz_con:concept_36,
+        zz_con:concept_37,
+        zz_con:concept_38,
+        zz_con:concept_4,
+        zz_con:concept_5,
+        zz_con:concept_6,
+        zz_con:concept_7,
+        zz_con:concept_8,
+        zz_con:concept_9 ;
+    skos:prefLabel "贵州省生态环境大数据中心建设项目安全保障体系规范"@zh .
+
+zz_con:concept_0 a skos:Concept ;
+    skos:definition "造成人员伤亡,职业疾病,设备、财产损坏或损失,环境破坏等的一个或一系列非预期事件。"@en ;
+    skos:prefLabel " accident"@en,
+        "事故"@zh .
+
+zz_con:concept_1 a skos:Concept ;
+    skos:definition "一个系统或子系统的组成元素。"@en ;
+    skos:prefLabel " component"@en,
+        "组件"@zh .
+
+zz_con:concept_10 a skos:Concept ;
+    skos:definition "可能导致或引发灾祸或意外事故的现存或潜在的情况。"@en ;
+    skos:prefLabel " hazard"@en,
+        "危害"@zh .
+
+zz_con:concept_11 a skos:Concept ;
+    skos:definition "减少因危害发生而导致的风险的手段,包括用于减小危害后果发生的可能性、降低危害严重程度的设计或运行特性。"@en ;
+    skos:prefLabel " hazard control"@en,
+        "危害控制"@zh .
+
+zz_con:concept_12 a skos:Concept ;
+    skos:definition "减少或消除由危害导致的风险的任何措施。"@en ;
+    skos:prefLabel " hazard mitigation"@en,
+        "危害缓解"@zh .
+
+zz_con:concept_13 a skos:Concept ;
+    skos:definition "双方或多方之间的书面协定,它定义了与某一特定方案或项目协同工作有关各方的角色和责任。注:MOA有时也称为谅解备忘录(MOU)。"@en ;
+    skos:prefLabel " memorandum of agreement"@en,
+        "协定备忘录"@zh .
+
+zz_con:concept_14 a skos:Concept ;
+    skos:definition "任务的项或功能应保持运行能力,以确保任务不会失效。"@en ;
+    skos:prefLabel " mission critical"@en,
+        "任务关键"@zh .
+
+zz_con:concept_15 a skos:Concept ;
+    skos:definition "在系统中原样使用的已存在的软件,其中包括:（1）商业现货软件(COTS)是指经购买获得的软件,例如操作系统、库或应用程序;（2）可修改现货软件(MOTS)典型的是指源代码可修改的 COTS产品。"@en ;
+    skos:prefLabel " off"@en,
+        "现货软件"@zh .
+
+zz_con:concept_16 a skos:Concept ;
+    skos:definition "物理上或逻辑上把安全关键功能与其他功能分离。"@en ;
+    skos:prefLabel " partitioning"@en,
+        "划分"@zh .
+
+zz_con:concept_17 a skos:Concept ;
+    skos:definition "初始系统概念的粗略研究,用于识别所有构成内在危害的根源,评估在系统运行的各种模式下可能发生的意外事故。注:该分析也用于标识预防所有意外事故可能性的保护方法。"@en ;
+    skos:prefLabel " preliminary hazard analysis"@en,
+        "初步危害分析"@zh .
+
+zz_con:concept_18 a skos:Concept ;
+    skos:definition "项目从其开始到完成及退役的进展过程。项目进展所经历的一组步骤或阶段,包括形成、构思到关闭并向客户交付,根据系统如何定义还可能包括运行、维护和退役。注:运行和维护阶段直到退役可能是一个独立的项目生存周期。"@en ;
+    skos:prefLabel " project lifecycle"@en,
+        "项目生存周期"@zh .
+
+zz_con:concept_19 a skos:Concept ;
+    skos:definition "为其他系统创建,并被组合到正在开发的系统中的软件。"@en ;
+    skos:prefLabel " reused software"@en,
+        "重用软件"@zh .
+
+zz_con:concept_2 a skos:Concept ;
+    skos:definition "获取其他组织所开发的软件的实体,包括工程、项目、设施。"@en ;
+    skos:prefLabel " customer"@en,
+        "客户"@zh .
+
+zz_con:concept_20 a skos:Concept ;
+    skos:definition "如下二者的结合:1）方案或项目遭遇非期望事件的可能性(定性或定量的);2）非期望事件出现时,将造成的后果、影响的严重性。"@en ;
+    skos:prefLabel " risk"@en,
+        "风险"@zh .
+
+zz_con:concept_21 a skos:Concept ;
+    skos:definition "直接或间接导致人员伤害、系统损坏,系统外的财产损失或环境破坏的潜在可能性的任何条件、事件、操作、过程、设备或系统。"@en ;
+    skos:prefLabel " safety critical"@en,
+        "安全关键"@zh .
+
+zz_con:concept_22 a skos:Concept ;
+    skos:definition "在方针、过程以及标准制定,监管和洞察,及安全、可靠性、可维护性及质量等方面的技术开发和转移方面为客户提供支持。"@en ;
+    skos:prefLabel " safety and mission assurance"@en,
+        "安全及任务保障"@zh .
+
+zz_con:concept_23 a skos:Concept ;
+    skos:definition "确保所识别的软件的需求、设计、实现、验证及运行规程能使潜在的危险最小化或将其排除。"@en ;
+    skos:prefLabel " safety assurance"@en,
+        "安全保障"@zh .
+
+zz_con:concept_24 a skos:Concept ;
+    skos:definition "从其他组织通过文档化的协定获得软件的过程,或指从其他组织获取软件产品的一组活动。"@en ;
+    skos:prefLabel " software acquisition"@en,
+        "软件获取"@zh .
+
+zz_con:concept_25 a skos:Concept ;
+    skos:definition "确保软件生存周期过程及产品符合需求、标准和规程要求的一组有计划的活动。注:通常软件保障包括软件质量(软件质量工程、软件质量保障、软件质量控制等功能)、软件安全性、软件可靠性、 软件验证与确认以及独立验证与确认等学科领域。"@en ;
+    skos:prefLabel " software assurance"@en,
+        "软件保障"@zh .
+
+zz_con:concept_26 a skos:Concept ;
+    skos:definition "逻辑上分离的软件项的组成部分。注:软件元素依赖于上下文,可以是需求、软件设计、软件源代码或任何软件实体的一个子集。"@en ;
+    skos:prefLabel " software element"@en,
+        "软件元素"@zh .
+
+zz_con:concept_27 a skos:Concept ;
+    skos:definition "分析、定义、开发、测试以及交付一个软件产品所必需的所有活动。注:当软件可以运行并且对于客户的使用或运行已被正式验收时,该开发生存周期结束。一旦进入可运行状态,任  何变更及升级都被视为小规模的软件开发生存周期。"@en ;
+    skos:prefLabel " software development lifecycle"@en,
+        "软件开发生存周期"@zh .
+
+zz_con:concept_28 a skos:Concept ;
+    skos:definition "由软件对可能有危害的硬件的错误控制而造成的危害。这种软件可能是功能正确的(根据其需求),也可能处于失效模式之中。"@en ;
+    skos:prefLabel " software hazard"@en,
+        "软件危害"@zh .
+
+zz_con:concept_29 a skos:Concept ;
+    skos:definition "   无需对源程序重装配或重编译，直接对目标程序所做的修改。"@en ;
+    skos:prefLabel " software patch"@en,
+        "软件补丁"@zh .
+
+zz_con:concept_3 a skos:Concept ;
+    skos:definition "将一个系统或组件划分为组成部分的过程。"@en ;
+    skos:prefLabel " decomposition"@en,
+        "分解"@zh .
+
+zz_con:concept_30 a skos:Concept ;
+    skos:definition "软件工程与软件保障的一个方面,它提供一种系统的方法来标识、分析和追踪对危害以及具有危害性的功能(例如数据和命令)的软件缓解措施与控制。"@en ;
+    skos:prefLabel " software safety"@en,
+        "软件安全"@zh .
+
+zz_con:concept_31 a skos:Concept ;
+    skos:definition "应用于整个软件生存周期的系统安全工程技术,以确保可能降低系统安全的错误已被消除或控制在可接受的风险水平上。"@en ;
+    skos:prefLabel " software safety analysis"@en,
+        "软件安全分析"@zh .
+
+zz_con:concept_32 a skos:Concept ;
+    skos:definition "评价所提议的变更引起危害性状态、影响危害控制、增加危害状态的可能性、对安全关键软件造成负面影响或改变一个已存在的软件组件的安全关键特性。该活动明确对于假设、规格说明、需求、设计、代码、设备、测试计划、环境、用户文档以及培训材料的变更所带来的影响。"@en ;
+    skos:prefLabel " software safety change analysis"@en,
+        "软件安全变更分析"@zh .
+
+zz_con:concept_33 a skos:Concept ;
+    skos:definition "作为系统安全方案一部分,详细记录软件安全相关活动、进度安排、联系渠道和责任的文档。注:该文档不一定要作为独立的文档存在,可以作为系统安全计划的一部分,或对于小项目而言,可以作为总体保障计划的一部分。无论编制者是谁,都需相关人员签署批准。"@en ;
+    skos:prefLabel " software safety plan"@en,
+        "软件安全计划"@zh .
+
+zz_con:concept_34 a skos:Concept ;
+    skos:definition "个人、合伙伙伴、公司或社团与一个组织(即主承包方)就设计、开发、测试、验证和制造一个或多个产品签订合同。"@en ;
+    skos:prefLabel " subcontracting"@en,
+        "分包"@zh .
+
+zz_con:concept_35 a skos:Concept ;
+    skos:definition "对于已发现的危害源,标识并评价已有和潜在的危害以及所推荐的危害缓解方法,包括对安全功能和危害控制的验证和确认。"@en ;
+    skos:prefLabel " system hazard analysis"@en,
+        "系统危害分析"@zh .
+
+zz_con:concept_36 a skos:Concept ;
+    skos:definition "一个提供追踪能力的系统,能够在前向和后向两个方向上提供从需求的最初构思、后续细化到产品实现以及与产品相关文档的追踪能力。"@en ;
+    skos:prefLabel " tracing system"@en,
+        "追踪系统"@zh .
+
+zz_con:concept_37 a skos:Concept ;
+    skos:definition "经过记录和批准的偏离,以执行一些与已建立的需求不相符的动作或操作。"@en ;
+    skos:prefLabel " variance"@en,
+        "偏差"@zh .
+
+zz_con:concept_38 a skos:Concept ;
+    skos:definition "一个已记录在案的偏差,此偏差允许违背一个特定的安全需求,该需求已使用替代的方法来降低风险或者管理层已经接受了风险级别的增高。3.2 缩略语下列缩略语适用于本文件。CASE    计算机辅助软件工程(Computer Aided Software Engineering)CDR    关键设计评审(Critical Design Review)COTS    商业现货  (Commercial Off-the-Shelf)DCR    设计认证评审(Design Certification Review)FDIR    故障检测、隔离与恢复(Fault Detection, Isolation, and Recovery)FMEA     失效模式与影响分析(Failure Modes and Effects Analysis)MOA     协定备忘录(Memorandum of Agreement)MOTS    可修改现货(Modified Off-the-Shelf)MOU     谅解备忘录(Memorandum of Understanding)OTS    现货(Off-the-Shelf)PDR    概要设计评审(Preliminary Design Review)SMA     软件和任务保障(Software and Mission Assurance)SSAE    软件安全保障工程师(Software Safety Assurance Engineer)TRR    测试就绪评审(Test Readiness Review)"@en ;
+    skos:prefLabel " waiver"@en,
+        "豁免"@zh .
+
+zz_con:concept_4 a skos:Concept ;
+    skos:definition "一种自底向上系统的、归纳的、有条理的分析,用于在指定的级别上标识并记录所有可识别的失效   模式并详述失效模式的后果。"@en ;
+    skos:prefLabel " failure modes and effects analysis"@en,
+        "失效模式与影响"@zh .
+
+zz_con:concept_5 a skos:Concept ;
+    skos:definition "一种故障分析技术,用来识别非期望的系统状态,在系统环境和运行的上下文中对其进行分析以找到所有非期望事件可能出现的可信途经。"@en ;
+    skos:prefLabel " fault tree analysis"@en,
+        "故障树分析"@zh .
+
+zz_con:concept_6 a skos:Concept ;
+    skos:definition "发现故障的能力，判断故障已经发生的过程。"@en ;
+    skos:prefLabel " fault detection"@en,
+        "故障检测"@zh .
+
+zz_con:concept_7 a skos:Concept ;
+    skos:definition "确定故障位置或源头的过程。"@en ;
+    skos:prefLabel " fault isolation"@en,
+        "故障隔离"@zh .
+
+zz_con:concept_8 a skos:Concept ;
+    skos:definition "不必经过长时间的重配置,系统就可以克服故障的过程。"@en ;
+    skos:prefLabel " fault recovery"@en,
+        "故障恢复"@zh .
+
+zz_con:concept_9 a skos:Concept ;
+    skos:definition "功能需求定义了系统或子系统为完成它的任务应做什么,以及时间及性能需求。"@en ;
+    skos:prefLabel " functional requirements"@en,
+        "功能需求"@zh .
+
